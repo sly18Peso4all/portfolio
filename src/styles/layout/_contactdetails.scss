@@ -1,0 +1,23 @@
+.contact-details {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  min-height: 30vh;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    margin-top: 4rem;
+    grid-template-columns: 1fr;
+  }
+
+  &__title {
+    color: var(--color-white);
+    font-size: clamp(23px, 4vw, 46px);
+  }
+
+  &__description {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

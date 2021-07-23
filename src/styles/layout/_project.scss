@@ -1,0 +1,68 @@
+.project-background {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  gap: 50px;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
+
+  .project-details {
+    &__title {
+      color: var(--color-white);
+      font-size: clamp(23px, 4vw, 46px);
+
+      margin-bottom: 20px;
+    }
+
+    &__desc,
+    &__icon {
+      max-width: 450px;
+      line-height: 1.7;
+      font-size: 16px;
+      margin: 20px 0;
+      letter-spacing: 0.5px;
+    }
+
+    &__icon:hover .git-icon {
+      fill: #eda44a;
+      transition: all 350ms ease-in-out;
+    }
+
+    &__skills {
+      max-width: 450px;
+      line-height: 1.2;
+      margin: 10px 0;
+      letter-spacing: 0.5px;
+      display: inline-flex;
+      width: 30%;
+      align-items: center;
+
+      small {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        font-family: "Poppins", sans-serif;
+        align-items: center;
+        color: var(--color-gray);
+      }
+    }
+  }
+  .project-image {
+    margin-top: 4rem;
+
+    @media (max-width: 768px) {
+      margin-top: 0;
+    }
+    img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+
+      img:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
+}

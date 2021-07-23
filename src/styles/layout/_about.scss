@@ -1,0 +1,57 @@
+.about {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 30px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+
+  &__title {
+    font-size: clamp(25px, 4vw, 50px);
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+  }
+
+  &__text {
+    margin: 20px 0px 0px;
+    max-width: 500px;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+  }
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 50px;
+    color: var(--color-gray);
+    align-items: center;
+
+    li {
+      display: flex;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__img {
+    margin-top: 4rem;
+    img {
+      max-width: 90%;
+      @media (max-width: 900px) {
+        max-width: 100%;
+      }
+    }
+  }
+}

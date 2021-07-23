@@ -1,0 +1,22 @@
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 30vh;
+  border-bottom: 1px solid transparent;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: var(--border-bottom);
+    border-top: var(--border-bottom);
+    margin-top: 2rem;
+  }
+
+  .cta-title {
+    min-width: content;
+    color: var(--color-white);
+    font-size: clamp(22px, 4vw, 44px);
+    letter-spacing: 1px;
+  }
+}
