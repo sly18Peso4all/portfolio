@@ -8,7 +8,7 @@ const project_data = [
     link: "//forkify-foodrecipe.netlify.app",
     image: "./assets/forkify.png",
     id: 276863172,
-    github: "//github.com/sly18Peso4all/omnifoods",
+    github: "//github.com/sly18Peso4all/forkify-recipe-app",
   },
   {
     title: "Pokemon Simulator",
@@ -27,6 +27,7 @@ const project_data = [
     image: "./assets/pokemon.png",
     id: 6354265354,
     github: "//github.com/sly18Peso4all/omnifoods",
+    github: "//github.com/sly18Peso4all/pokefight-server/tree/master",
   },
   {
     title: "Omni-foods",
@@ -48,7 +49,7 @@ const project_data = [
     link: "//sports-newsgrid.netlify.app",
     image: "./assets/sports-news.png",
     id: 8326683002,
-    github: "//github.com/sly18Peso4all/omnifoods",
+    github: "//github.com/sly18Peso4all/News-Grid",
   },
 ];
 

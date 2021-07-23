@@ -10,6 +10,11 @@
   font-size: 1rem;
   padding: 10px 20px;
   transition: var(--transition);
+
+  @media (max-width: 768px) {
+    width: max-content;
+    text-align: center;
+  }
 }
 
 .btn-one {
