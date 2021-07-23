@@ -26,7 +26,6 @@ const project_data = [
     link: "//pokefist.netlify.app",
     image: "./assets/pokemon.png",
     id: 6354265354,
-    github: "//github.com/sly18Peso4all/omnifoods",
     github: "//github.com/sly18Peso4all/pokefight-server/tree/master",
   },
   {
