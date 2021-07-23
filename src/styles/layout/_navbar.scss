@@ -3,11 +3,16 @@ nav {
     display: flex;
 
     @media (max-width: 768px) {
+      justify-content: space-evenly;
       width: 100%;
     }
 
     li:not(:last-of-type) {
       margin-right: 5rem;
+
+      @media (max-width: 768px) {
+        margin-right: 2rem;
+      }
     }
     a {
       color: var(--color-gray);
